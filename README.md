@@ -29,12 +29,19 @@ To view the portfolio, visit the live website.
 To run the project locally:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/harisaigithub/codsoft-L1-T2-Portfolio
+    git clone https://github.com/Nayeem-stud/codesoft-L1-T2-portfolio.git
     ```
 2. Open `index.html` in your preferred web browser.
 
 ## Live Demo
-Check out the live demo of the landing page [here](https://codesoftl1t3.netlify.app/).
+Check out the live demo of the landing page [here](https://codesoftl1t2.netlify.app/).
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out to me at abdul3133@gmail.com.
+
+
+**Image File**: 
+![Alt text](portfolio/page1.png)
+![Alt text](portfolio/page2.png)
+![Alt text](portfolio/page3.png)
+
