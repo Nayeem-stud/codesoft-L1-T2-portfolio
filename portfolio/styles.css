@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff9f1c;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+header nav ul li a:hover{
+    color: #333;
+}
+li:hover{
+    color: #ea3838;
+    cursor: pointer;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+section#about{
+    background-color: #ffffff;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+}
+section#about img{
+    width: 300%;
+    height: 300%;
+}
+section#about p{
+    width: 60%;
+}
+section#skills{
+    background-color: #ffbf69;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.ski{
+    display: flex;
+    width: 100%; text-align: center;
+}
+.sk{
+    display: flex;
+    width: 50%;
+    text-align: center;
+}
+section#skills li{
+   width: 90%;
+   display: flex;
+  text-align: center;
+}
+section#skills ul{
+    width: 100%;
+    padding: 2%;
+}
+section#experience{
+    background: linear-gradient(45deg, #00f5d4,#cbc0d3, #00f5d4);
+}
+section#contact {
+    background-color: #ffbf69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#contact p{
+text-decoration: none;
+font-size: larger;
+}
+section#contact a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    }
+section#projects {
+    background: linear-gradient(45deg, #00f5d4,#cbc0d3, #00f5d4);
+}
+section#contact{
+display: flex;
+flex-direction: column;
+}
+section#projects .project,
+section#experience .experience {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+section#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#skills ul li {
+    background-color: #fff;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
